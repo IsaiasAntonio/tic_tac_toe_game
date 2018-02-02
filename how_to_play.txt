@@ -1,0 +1,8 @@
+First, you need to write in your console irb
+ for open the Ruby terminal
+
+Second, you need to run the command require_relative 'loader' with the loader file that contains all de links of the modules
+
+Third, write game = Tic::Game.new
+
+Lets Play!
