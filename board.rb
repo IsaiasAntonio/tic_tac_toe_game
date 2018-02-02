@@ -1,3 +1,4 @@
+require 'colorize'
 module Tic
   class Board
     attr_reader :board
@@ -15,14 +16,14 @@ module Tic
     end
 
     def draw
-      puts '--------'
+	    puts ' -------'.red
       @board.each { |square| print square
         @row += 1
         if @row >2
           puts ""
         @row = 0
        end}
-      puts '--------'
+      puts ' -------'.red
     end
   end
 end
